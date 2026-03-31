@@ -1,0 +1,34 @@
+# Secrets and Environment Variables
+secret.key
+.env
+.env.*
+!.env.example
+
+# SQLite Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploaded Files
+uploads/
+test_uploads/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Application Data
+instance/
+.flask_session/
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
